@@ -29,7 +29,7 @@
     let accountName = AdsApp.currentAccount().getName();
     let sheetNameIdentifier = clientCode ? clientCode : accountName;
     let ss = SpreadsheetApp.openByUrl(SHEET_URL);
-    ss.rename(sheetNameIdentifier + ' DK - PMax Insights - Jonas Ploth EYL ');
+    ss.rename(sheetNameIdentifier + ' JP - PMAX Insights ');
     updateVariablesFromSheet(ss, 'Settings');
 
 
